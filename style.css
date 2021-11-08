@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css?family-Poppins:200,300,400,500,600,700,800,900&display-swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins',sans-serif;
+}
+
+h2{
+    font-size: 45px;
+    size: 100px;
+    color:white;
+}
+
+h3{
+    color:white;
+    font-size: 30px;
+    size: 100px;
+}
+
+body{
+   justify-content: center;
+   align-items: center;
+   position:relative;
+   background-color: #0aff2b;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background: url('./images/sfondo.jpg');
+    animation: animazione 100s linear infinite;
+}
+
+
+@keyframes animazione{
+    100%{
+       background-position: 0px 3000px; 
+    }
+}
+
+
+
+
+img{
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+}
+
+#carrello{
+    text-align: center;
+}
+
+.prodotto{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.card1{
+    position: relative;
+    width: 220px;
+    height: 300px;
+    top: 30px;
+    background:#123e57;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.card1 button:hover{
+  background-color: #0adaff;
+}
+
+
+.card2{
+    margin-top: 20px;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    top: 30px;
+    background:#ffa806;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.card2 button:hover{
+    background-color: #0adaff;
+  }
+
+
+.card3{
+    margin-top: 20px;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    top: 30px;
+    background:#8e8e91;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.card3 button:hover{
+    background-color: #0adaff;
+  }
+
+.card4{
+    top: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    background:#ff0a0a;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 2px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.card4 button:hover{
+    background-color: #0adaff;
+  }
+
+.card5{
+    top: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    background:#138071;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: right 2px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.card5 button:hover{
+    background-color: #0adaff;
+  }
+
+.card6{
+    top: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    background:#805d13;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.card6 button:hover{
+    background-color: #0adaff;
+  }
+
+  .card7{
+    top: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    background:#d6b366;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+}
+.card7 button:hover{
+    background-color: #0adaff;
+  }
+  .card8{
+    top: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    background:#f0ec05;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+}
+.card8 button:hover{
+    background-color: #0adaff;
+  }
+
+  .card9{
+    top: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    background:#5a5a5a;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    display: inline-block;
+}
+.card9 button:hover{
+    background-color: #0adaff;
+  }
+
+  .card10{
+    top: 30px;
+    margin-top: 20px;
+    position: relative;
+    width: 220px;
+    height: 300px;
+    background:#095b69;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 5px;
+    display: inline-block;
+}
+.card10 button:hover{
+    background-color: #0adaff;
+  }
+
+
+
+button{
+    font-weight: bold;
+    font-size: 0.75em;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+#totaleConto{
+    color:aliceblue;
+    font-size: 30px;
+    font-style:oblique;
+}
+
+
+#carrello button:hover{
+    background-color:red;
+  }
+
+.ordina{
+    background-color: blue;
+}
+
+
+
